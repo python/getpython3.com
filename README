@@ -1,0 +1,7 @@
+to build:
+
+mkvirtualenv getpython3
+pip install blogofile
+cd site
+blogofile build
+open _site/index.html
