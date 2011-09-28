@@ -13,8 +13,8 @@ to fund or provide grants for Python 3 porting.</p>
 
 <h2 class="caps"><span>What is Python 3?</span></h2>
 
-<p>Short version: Python 2.x is the status quo, Python 3.x is the 
-present and future of the language</p>
+<p>Short version: Although most Python code is written for Python 
+2.x, Python 3.x is the present and future of the language./p>
 
 <p>At the time of writing (Sept 28, 2010), the final 2.7 release 
 is out, with a statement of extended support for this end-of-life 
