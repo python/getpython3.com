@@ -1,0 +1,38 @@
+div.header {
+    height: 50px;
+}
+
+div.footer {
+    height: 50px;
+}
+
+div.leftcol {
+}
+
+div.rightcol {
+}
+
+div.centcol {
+}
+
+ul.no-margin {
+    margin-bottom: 0 !important;
+}
+
+h2 {
+    border-bottom: 1px solid gray !important;
+}
+
+h2 span {
+    border-bottom: 4px solid #234764 !important;
+}
+
+.title {
+    color: #234764;
+}
+
+.footer {
+    text-align: center !important;
+    position: relative;
+    width: 100%;
+}
