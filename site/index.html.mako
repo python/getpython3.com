@@ -116,8 +116,8 @@ you.</p>
     <li><a href="http://docs.pythonsprints.com/python3_porting/py-porting.html">Python 3 Porting Guide</a></li>
     <li><a href="http://docs.python.org/dev/howto/pyporting.html">Porting Python 2 Code to Python 2 (docs.python.org)</a></li>
     <li><a href="http://ptgmedia.pearsoncmg.com/imprint_downloads/informit/promotions/python/python2python3.pdf">Mark Summerfield's "Moving from Python 2 to Python 3"</a></li>
-    <li><a href="http://wiki.python.org/moin/PortingExtensionModulesToPy3k">Porting C Extension Modules to Python 3</a></li>
-    <li><a href="http://wiki.python.org/moin/PortingPythonToPy3k">Porting Python code to 3</a></li>
+    <li><a href="http://docs.python.org/py3k/howto/cporting.html">Porting C Extension Modules to Python 3</a></li>
+    <li><a href="http://docs.python.org/py3k/howto/pyporting.html">Porting Python code to 3</a></li>
     <li><a href="http://wiki.python.org/moin/Python2orPython3">Python2orPython2 also contains a lot of great resources</a></li>
 </ul>
 
