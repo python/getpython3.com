@@ -114,7 +114,7 @@ you.</p>
 <ul>
     <li><a href="http://www.dabeaz.com/python3io/">David Beazley: Mastering Python 3 I/O</a></li>
     <li><a href="http://docs.pythonsprints.com/python3_porting/py-porting.html">Python 3 Porting Guide</a></li>
-    <li><a href="http://docs.python.org/dev/howto/pyporting.html">Porting Python 2 Code to Python 2 (docs.python.org)</a></li>
+    <li><a href="http://docs.python.org/dev/howto/pyporting.html">Porting Python 2 Code to Python 3 (docs.python.org)</a></li>
     <li><a href="http://ptgmedia.pearsoncmg.com/imprint_downloads/informit/promotions/python/python2python3.pdf">Mark Summerfield's "Moving from Python 2 to Python 3"</a></li>
     <li><a href="http://docs.python.org/py3k/howto/cporting.html">Porting C Extension Modules to Python 3</a></li>
     <li><a href="http://docs.python.org/py3k/howto/pyporting.html">Porting Python code to 3</a></li>
