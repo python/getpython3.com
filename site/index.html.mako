@@ -83,7 +83,7 @@ follow</p>
 <p class="notice">Information on how to structure grant 
 applications, and where to send them will be coming shortly. If you are a
 company, or represent a company that is interested in helping <b>fund</b>
-Python 3 porting efforts, please email <a href="mailto:jnoller@python.org">email jnoller@python.org</a>
+Python 3 porting efforts, please email <a href="mailto:jnoller@python.org">jnoller@python.org</a>
 with information and details. I will coordinate with you, projects, and the 
 Python Software Foundation.</p>
 
