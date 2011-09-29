@@ -16,7 +16,7 @@ to fund or provide grants for Python 3 porting.</p>
 <p>Short version: Although most Python code is written for Python 
 2.x, Python 3.x is the present and future of the language.</p>
 
-<p>At the time of writing (Sept 28, 2010), the final 2.7 release 
+<p>At the time of writing (Sept 28, 2011), the final 2.7 release 
 is out, with a statement of extended support for this end-of-life 
 release. The 2.x branch will see no new major releases after that. 
 3.x is under active development and has already seen stable 
