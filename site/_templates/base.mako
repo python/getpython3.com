@@ -26,13 +26,13 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="span16">
-            <div id="header" class="header">
+        <div class="row">
+            <div class="span16">
                 <img src="media/images/python3-sticker.png"/>
             </div>
-        </div>
-        <div class="span16">
-            &nbsp;
+            <div class="span16">
+                &nbsp;
+            </div>
         </div>
         <div class="sidebar">
             &nbsp;
