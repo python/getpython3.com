@@ -6,13 +6,8 @@
     <title>getpython3.com</title>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
-    <link rel="stylesheet" href="media/bluetrip/css/screen.css" type="text/css" media="screen, projection" />
-    <link rel="stylesheet" href="media/bluetrip/css/print.css" type="text/css" media="print" />
-    <!--[if IE]>
-        <link rel="stylesheet" href="media/bluetrip/css/ie.css" type="text/css" media="screen, projection" />
-    <![endif]-->
-    <link rel="stylesheet" href="media/bluetrip/css/style.css" type="text/css" media="screen, projection" />
-    <link rel="stylesheet" href="media/css/site.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.3.0/bootstrap.min.css" />
+    <link rel="stylesheet" href="media/css/base.css" type="text/css" media="screen, projection" />
     <!-- google analytics right up in this piece son. -->
     <script type="text/javascript">
 
@@ -30,31 +25,32 @@
 
 </head>
 <body>
-    <div class="container">
-        <div class="span-24 last">
+    <div class="container-fluid">
+        <div class="span16">
             <div id="header" class="header">
+                <img src="media/images/python3-sticker.png"/>
             </div>
         </div>
-        <div class="span-6">
-            <div id="leftcol" class="leftcol">
-                &nbsp;
-            </div>
+        <div class="span16">
+            &nbsp;
         </div>
-        <div class="span-12">
-            <div id="centercol" class="centcol">
-                <div id="center-header" class="center-header">
-                    <h1 class="thin title">Welcome to getpython3.com</h1>
-                    <blockquote>
-                        On second thought, let's not go to Camelot. It is a silly place.<br />
-                        - Monty Python and the Holy Grail
-                    </blockquote>
-                </div>
-                <div id="navigation" class="navigation">
-                    <!-- unused -->
-                </div>
-                <div id="content-main" class="content-main">
-                    ${next.body()}
-                </div>
+        <div class="sidebar">
+            &nbsp;
+        </div>
+        <div class="content">
+            <div id="center-header" class="center-header">
+                <h1> Python 3 Resources and more <small>for Python developers and
+                        users</small></h1>
+                <blockquote>
+                    On second thought, let's not go to Camelot. It is a silly place.<br />
+                    <small>Monty Python and the Holy Grail</small>
+                </blockquote>
+            </div>
+            <div id="navigation" class="navigation">
+                <!-- unused -->
+            </div>
+            <div id="content-main" class="content-main">
+                ${next.body()}
             </div>
         </div>
         <div class="span-6 last">

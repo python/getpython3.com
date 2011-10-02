@@ -1,5 +1,9 @@
+body {
+    background: rgb(252,252,252)
+}
+
 div.header {
-    height: 50px;
+    height: 100%;
 }
 
 div.footer {

@@ -80,7 +80,7 @@ to help fund large-scale development efforts to Python 3. Others may
 follow</p>
 
 
-<p class="notice">Information on how to structure grant 
+<p class="alert-message block-message error">Information on how to structure grant 
 applications, and where to send them will be coming shortly. If you are a
 company, or represent a company that is interested in helping <b>fund</b>
 Python 3 porting efforts, please email <a href="mailto:jnoller@python.org">jnoller@python.org</a>
@@ -140,5 +140,5 @@ you.</p>
     <li><a href="http://sayspy.blogspot.com/2011/03/secret-site-goes-live-python-3-support.html">Brett Cannon: Secret Site Goes Live - Python 3 support</a></li>
 </ul>
 
-<p class="success">Source code to this site available
+<p class="alert-message block-message info">Source code to this site available
 <a href="https://github.com/jnoller/getpython3.com" target="_blank"> on github.</a></p>
