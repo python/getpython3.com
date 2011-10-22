@@ -1,18 +1,28 @@
 <%inherit file="_templates/base.mako" />
 
-<div>
-<!-- Place this tag where you want the +1 button to render -->
-<g:plusone></g:plusone>
+<p class="alert-message block-message error">
+    <b>Note</b>: We have mirrored Mark Pilgrim's excellent Dive into 
+    Python 3 book here: <a href="http://getpython3.com/diveintopython3/">
+    getpython3.com/diveintopython3/</a>.
+    Git mirror here:
+    <a href="https://github.com/diveintomark/diveintopython3">
+    diveintopython3</a>
+    <br/>
+    Thank you, Mark.
+</p>
 
-<!-- Place this render call where appropriate -->
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
-</div>
+    <!-- Place this tag where you want the +1 button to render -->
+    <g:plusone annotation="inline"></g:plusone>
+
+    <!-- Place this render call where appropriate -->
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
+
 
 <h2 class="caps"><span>Introduction</span></h2>
 <p>Welcome to <a href="http://getpython3.com">getpython3.com</a> 
