@@ -1,8 +1,8 @@
 <h2 class="caps"><span>Resources</span></h2>
 <p>There is a wealth of information out there on Porting to, and about
-Python 3. There is an entire mailing list (<a href="http://mail.python.org/mailman/listinfo/python-porting">python-porting</a>) 
-dedicated to helping people port things to Python 3 - developers 
-experienced in porting should join up, and there is already a good 
+Python 3. There is an entire mailing list (<a href="http://mail.python.org/mailman/listinfo/python-porting">python-porting</a>)
+dedicated to helping people port things to Python 3 - developers
+experienced in porting should join up, and there is already a good
 team there to help support you.</p>
 
 
@@ -48,6 +48,7 @@ team there to help support you.</p>
                     <li><a href="http://peadrop.com/blog/2009/04/05/porting-your-code-to-python-3/">Alexandre Vassalotti: Porting your code to Python 3</a></li>
                     <li><a href="http://www.voidspace.org.uk/python/articles/porting-mock-to-python-3.shtml">Michael Foord: Porting Mock to Python 3</a></li>
                     <li><a href="http://groups.google.com/group/django-developers/browse_thread/thread/abede3685ad0302">Jannis Leidel: Python 3 and You</a></li>
+                    <li><a href="http://dabeaz.blogspot.com/2011/01/porting-py65-and-my-superboard-to.html">David Beazley: Porting Py65 (and my Superboard) to Python 3</a></li>
                 </ul>
             </div>
         </div>
