@@ -49,6 +49,10 @@ team there to help support you.</p>
                     <li><a href="http://www.voidspace.org.uk/python/articles/porting-mock-to-python-3.shtml">Michael Foord: Porting Mock to Python 3</a></li>
                     <li><a href="http://groups.google.com/group/django-developers/browse_thread/thread/abede3685ad0302">Jannis Leidel: Python 3 and You</a></li>
                     <li><a href="http://dabeaz.blogspot.com/2011/01/porting-py65-and-my-superboard-to.html">David Beazley: Porting Py65 (and my Superboard) to Python 3</a></li>
+                    <li><span class="label success">New!</span>
+                        <a href="http://readthedocs.org/docs/ncoghlan_devs-python-notes/en/latest/py3k_binary_protocols.html">
+                            Nick Coghlan Python 3 and ASCII Compatible Binary Protocols</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -56,9 +60,10 @@ team there to help support you.</p>
             <div class="span6">
                 <h3>Python 3 Porting Trackers</h3>
                 <ul>
-                    <li><a href="http://py3ksupport.appspot.com/">Python 3 Support on PyPI</a></li>
+                    <!-- <li><a href="http://py3ksupport.appspot.com/">Python 3
+                    Support on PyPI</a></li> -->
                     <li><a href="http://onpython3yet.com/">On Python 3 Yet?</a></li>
-                    <li><span class="label important">FUD Warning</span> <a href="http://python3wos.appspot.com/">Python 3 Wall of Shame</a></li>
+                    <li><a href="http://python3wos.appspot.com/">Python 3 Wall of Shame</a></li>
                 </ul>
             </div>
             <div class="span6">
