@@ -53,6 +53,11 @@ team there to help support you.</p>
                         <a href="http://readthedocs.org/docs/ncoghlan_devs-python-notes/en/latest/py3k_binary_protocols.html">
                             Nick Coghlan Python 3 and ASCII Compatible Binary Protocols</a>
                     </li>
+                    <li><span class="label success">New!</span>
+                        <a href="http://www.wefearchange.org/2011/12/lessons-in-porting-to-python-3.html">
+                            Lessons in porting to Python 3</a>
+                    </li>
+
                 </ul>
             </div>
         </div>
