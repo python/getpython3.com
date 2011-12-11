@@ -68,11 +68,13 @@ team there to help support you.</p>
                     <!-- <li><a href="http://py3ksupport.appspot.com/">Python 3
                     Support on PyPI</a></li> -->
                     <li><a href="http://onpython3yet.com/">On Python 3 Yet?</a></li>
+                    <!--
                     <li><span class="label warning">FUD Warning</span>
                         <a href="http://python3wos.appspot.com/">Python 3 Wall
                         of Shame</a> - note, the terminology used on this page
                         is unfortunate, however it is a regularly updated
                         tracker of ported/unported things.</li>
+                    -->
                 </ul>
             </div>
             <div class="span6">
