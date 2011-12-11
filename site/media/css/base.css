@@ -9,7 +9,7 @@ div.header {
 }
 
 #fork-me img {
-    position: absolute;
+    position: fixed;
     top: 40px; /* room for the topbar */
     right: 0;
     border: 0;
