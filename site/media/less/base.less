@@ -1,13 +1,56 @@
-/*!
- * Bootstrap @VERSION
- *
- * Copyright 2011 Twitter, Inc
- * Licensed under the Apache License v2.0
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Designed and built with all the love in the world @twitter by @mdo and @fat.
- * Date: @DATE
- */
-
-// CSS Reset
+/*
+    Import the main bootstrap framework, then add site-specific customizations.
+*/
 @import "bootstrap.less";
+
+body {
+    background: rgb(252,252,252);
+    padding-top: 40px; /* room for the topbar */
+}
+
+div.header {
+    height: 100%;
+    width: 100%;
+}
+
+#fork-me img {
+    position: fixed;
+    top: 40px; /* room for the topbar */
+    right: 0;
+    border: 0;
+}
+
+div.footer {
+    height: 50px;
+}
+
+div.leftcol {
+}
+
+div.rightcol {
+}
+
+div.centcol {
+}
+
+ul.no-margin {
+    margin-bottom: 0 !important;
+}
+
+h2 {
+    border-bottom: 1px solid gray !important;
+}
+
+h2 span {
+    border-bottom: 4px solid #234764 !important;
+}
+
+.title {
+    color: #234764;
+}
+
+.footer {
+    text-align: center !important;
+    position: relative;
+    width: 100%;
+}
