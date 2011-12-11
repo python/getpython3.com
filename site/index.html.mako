@@ -10,6 +10,15 @@
     <br/>
     Thank you, Mark.
 </p>
+<p class="alert-message block-message info">
+    <span class="label success">New!</span>
+    <a href="http://lucumr.pocoo.org/about/">Armin Ronacher</a> is <a
+    href="https://twitter.com/#!/mitsuhiko/status/145883846733344769">asking</a>
+     for feedback from the community on Werkzeug support for Python 3.<br/>
+    <a href="https://docs.google.com/spreadsheet/viewform?formkey=dHRIVjZESUlZZFY4X09VVlppaGl4S1E6MQ#gid=0">Click here to take his
+    survey &raquo;</a>
+</p>
+
 
     <!-- Place this tag where you want the +1 button to render -->
     <g:plusone annotation="inline"></g:plusone>
@@ -115,8 +124,17 @@ major dependencies for other projects and tools:
     <li><a href="http://groups.google.com/group/pylons-discuss/browse_thread/thread/ca67c7bad45fe408?hl=en_US&pli=1">Pyramid 1.3a1</a></li>
     <li><a href="https://groups.google.com/forum/#!topic/django-developers/XjrX3FIPT-U">Django (Development Branch)</a></li>
     <li><a href="http://www.makotemplates.org/">Mako Templates</a></li>
+    <li><a href="http://www.sqlalchemy.org/features.html">SQLAlchemy</a></li>
+    <li><a href="http://www.webob.org/">Webob</a></li>
+    <li><a href="http://pypi.python.org/pypi/lxml/2.2.8">lxml</a></li>
+    <li><a href="http://pypi.python.org/pypi/pip">pip</a></li>
+    <li><a href="http://pypi.python.org/pypi/virtualenv">virtualenv</a></li>
+    <li><a href="http://pypi.python.org/pypi/celery">celery</a></li>
+    <li><a href="https://code.launchpad.net/~barry/python-dbus/py3k-works">python-dbus</a></li>
 </ul>
-More coming...
+You can see a semi-complete list of <a
+href="http://pypi.python.org/pypi?:action=browse&c=533&show=all">all Python 3 supporing packages on PyPi
+here</a>.
 </p>
 
 
