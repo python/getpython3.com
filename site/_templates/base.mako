@@ -7,20 +7,29 @@
     ${self.head()}
 </head>
 <body>
+
+    ${self.topbar()}
+
     <div class="container">
         ${self.header()}
-        <div class="row span12 offset1">
-            <div id="content-main" class="content-main">
-                ${next.body()}
+        <div class="row">
+            <div class="span12 offset1">
+                <div id="content-main" class="content-main">
+                    ${next.body()}
+                </div>
             </div>
+            ${self.footer()}
         </div>
-        ${self.footer()}
     </div>
 </body>
 </html>
 
 <%def name="head()">
   <%include file="head.mako" />
+</%def>
+
+<%def name="topbar()">
+  <%include file="topbar.mako" />
 </%def>
 
 <%def name="header()">
