@@ -33,7 +33,7 @@
     </script>
 
 
-<h2 class="caps"><span>Introduction</span></h2>
+<h2 id="introduction" class="caps"><span>Introduction</span></h2>
 <p>Welcome to <a href="http://getpython3.com">getpython3.com</a> 
 - this site aims to be a resource for Python 3 for developers. 
 This includes guides, videos, tutorials and other resources to 
@@ -44,7 +44,7 @@ porting to Python 3, other significant projects working on
 Python 3, as well as potential information on companies willing 
 to fund or provide grants for Python 3 porting.</p>
 
-<h2 class="caps"><span>What is Python 3?</span></h2>
+<h2 id="what-is-python-3" class="caps"><span>What is Python 3?</span></h2>
 
 <p>Short version: Although most Python code is written for Python 
 2.x, Python 3.x is the present and future of the language.</p>
@@ -80,7 +80,7 @@ existing Python 2.x code.</p>
 <p>Cribbed from <a href="http://wiki.python.org/moin/Python2orPython3"
 target="_blank">Python2orPython3</a> on the Python wiki.</p>
 
-<h2 class="caps"><span>Download Information</span></h2>
+<h2 id="download-information" class="caps"><span>Download Information</span></h2>
 <p>The most current version of Python 3 is 3.2.2 - here's a list of 
 new things:
 
@@ -116,7 +116,7 @@ href="http://mxcl.github.com/homebrew/">homebrew</a> via
 <p><a class="btn primary" href="http://python.org/download/releases/3.2.2/">Go Here to
 Download &raquo;</a></p>
 
-<h2 class="caps"><span>Notable Ports</span></h2>
+<h2 id="notable-ports" class="caps"><span>Notable Ports</span></h2>
 <p>The follow libraries/projects and frameworks are notable additions to the
 Python 3 ecosystem. Some of these represent entire frameworks, while others are
 major dependencies for other projects and tools:
@@ -138,7 +138,7 @@ here</a>.
 </p>
 
 
-<h2 class="caps"><span>Financial support</span></h2>
+<h2 id="financial-support" class="caps"><span>Financial support</span></h2>
 
 <p>In short: <b>yes</b> - there's a bevy of information, videos and
 blog posts out there that can help you on your way. Python 3 is 
@@ -181,7 +181,7 @@ Python 3 porting efforts, please email <a href="mailto:jnoller@python.org">jnoll
 with information and details. I will coordinate with you, projects, and the 
 Python Software Foundation.</p>
 
-<h2 class="caps"><span>How to find projects</span></h2>
+<h2 id="how-to-find-projects" class="caps"><span>How to find projects</span></h2>
 <p>If you are looking to help - but are not the maintainer of a module, library,
 etc there are various ways you can help. For example, see Brett Cannon's
 "<a href="http://py3ksupport.appspot.com/">Python 3 Support on PyPI</a>" site,

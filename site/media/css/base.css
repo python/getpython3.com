@@ -1,10 +1,18 @@
 body {
-    background: rgb(252,252,252)
+    background: rgb(252,252,252);
+    padding-top: 40px; /* room for the topbar */
 }
 
 div.header {
     height: 100%;
     width: 100%;
+}
+
+#fork-me img {
+    position: fixed;
+    top: 40px; /* room for the topbar */
+    right: 0;
+    border: 0;
 }
 
 div.footer {

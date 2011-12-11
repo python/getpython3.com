@@ -1,4 +1,4 @@
-<h2 class="caps"><span>Resources</span></h2>
+<h2 id="resources" class="caps"><span>Resources</span></h2>
 <p>There is a wealth of information out there on Porting to, and about
 Python 3. There is an entire mailing list (<a href="http://mail.python.org/mailman/listinfo/python-porting">python-porting</a>)
 dedicated to helping people port things to Python 3 - developers
