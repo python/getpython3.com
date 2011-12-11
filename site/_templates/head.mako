@@ -1,5 +1,8 @@
-<link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css" />
-<link rel="stylesheet" href="media/css/base.css" type="text/css" media="screen, projection" />
+<link rel="stylesheet/less" type="less" href="media/less/base.less" media="screen, projection" />
+<script type="text/javascript" src="media/js/less.min.js"></script>
+<!-- When compiling the stylesheets, don't forget to switch the link tags. -->
+<!-- <link rel="stylesheet/less" type="less" href="media/css/base.css" media="screen, projection" /> -->
+
 <script type="text/javascript" src="media/js/jquery-1.7.1.min.js"></script>
 <script type="text/javascript" src="media/js/bootstrap-scrollspy.js"></script>
 
