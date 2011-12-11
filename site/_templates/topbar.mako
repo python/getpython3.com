@@ -8,6 +8,7 @@
         <li><a href="#notable-ports">Notable Ports</a></li>
         <li><a href="#financial-support">Financial Support</a></li>
         <li><a href="#how-to-find-projects">How to Find Projects</a></li>
+        <li><a href="#resources">Resources</a></li>
       </ul>
     </div>
   </div><!-- /topbar-inner -->
