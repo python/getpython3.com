@@ -7,6 +7,9 @@
     ${self.head()}
 </head>
 <body>
+
+    ${self.topbar()}
+
     <div class="container">
         ${self.header()}
         <div class="row span12 offset1">
@@ -21,6 +24,10 @@
 
 <%def name="head()">
   <%include file="head.mako" />
+</%def>
+
+<%def name="topbar()">
+  <%include file="topbar.mako" />
 </%def>
 
 <%def name="header()">
