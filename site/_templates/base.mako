@@ -12,12 +12,14 @@
 
     <div class="container">
         ${self.header()}
-        <div class="row span12 offset1">
-            <div id="content-main" class="content-main">
-                ${next.body()}
+        <div class="row">
+            <div class="span12 offset1">
+                <div id="content-main" class="content-main">
+                    ${next.body()}
+                </div>
             </div>
+            ${self.footer()}
         </div>
-        ${self.footer()}
     </div>
 </body>
 </html>
