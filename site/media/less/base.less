@@ -23,13 +23,15 @@ body {
     }
 
     #content-main {
-        a:hover { background-color: @pyYellow; }
+
+        a:hover { background-color: desaturate(@pyYellow, 15%); }
         p {
-            line-height: 1.5em;
+            line-height: 1.6em;
             margin-bottom: 1em;
             color: lighten(@black, 20%);
         }
         ul, ol {
+
             @listBG: desaturate(darken(@bodyBG, 5%), 30%);
             background: @listBG;
             margin-left: 0;
@@ -37,6 +39,7 @@ body {
             .border-radius;
             border: 1px solid lighten(darken(@listBG, 40%), 30%);
             li {
+                line-height: 1.4em;
                 // somewhere in between gray and grayDark
                 color: lighten(@black, 30%); }
         }
