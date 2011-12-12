@@ -357,7 +357,7 @@ button.btn::-moz-focus-inner,input[type=submit].btn::-moz-focus-inner{padding:0;
 body{background:#fff5cf;padding-top:40px;}body .hero-unit{background-color:#1c3b55;color:#ffdd55;-webkit-border-radius:0 0 6px 6px;-moz-border-radius:0 0 6px 6px;border-radius:0 0 6px 6px;-webkit-box-shadow:2px 3px 5px rgba(0, 0, 0, 0.4);-moz-box-shadow:2px 3px 5px rgba(0, 0, 0, 0.4);box-shadow:2px 3px 5px rgba(0, 0, 0, 0.4);padding:1em 60px;}body .hero-unit h1{color:#94bbdc;}
 body #content-main a:hover{background-color:#ffdd55;}
 body #content-main p{line-height:1.5em;margin-bottom:1em;color:#333333;}
-li{color:#595959;}
+body #content-main ul,body #content-main ol{background:#f4eac1;margin-left:0;padding:10px 25px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:1px solid #ecdb96;}body #content-main ul li,body #content-main ol li{color:#4d4d4d;}
 div.header{height:100%;width:100%;}
 #fork-me img{position:fixed;top:40px;right:0;border:0;}
 div.footer{height:50px;}

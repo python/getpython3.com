@@ -2,13 +2,13 @@
 /* Some baseline colors to deviate from */
 @pyYellow: #fd5;
 @pyBlue: #3570a2;
-
+@bodyBG: lighten(@pyYellow, 24%);
 /* Import the main bootstrap framework, then add site-specific customizations. */
 @import "bootstrap.less";
 
 
 body {
-    background: lighten(@pyYellow, 24%);
+    background: @bodyBG;
     padding-top: 40px; /* room for the topbar */
 
     .hero-unit {
@@ -29,13 +29,20 @@ body {
             margin-bottom: 1em;
             color: lighten(@black, 20%);
         }
+        ul, ol {
+            @listBG: desaturate(darken(@bodyBG, 5%), 30%);
+            background: @listBG;
+            margin-left: 0;
+            padding: 10px 25px;
+            .border-radius;
+            border: 1px solid lighten(darken(@listBG, 40%), 30%);
+            li {
+                // somewhere in between gray and grayDark
+                color: lighten(@black, 30%); }
+        }
     }
 }
 
-
-li {
-    // somewhere in between gray and grayDark
-    color: lighten(@black, 35%); }
 
 div.header {
     height: 100%;
