@@ -1,13 +1,15 @@
-<!-- use the less files directly while developing styles -->
+<!-- use the less files directly while developing styles
 
 <link rel="stylesheet/less" type="less" href="media/less/base.less" media="screen, projection" />
 <script type="text/javascript" src="media/js/less.min.js"></script>
 
+-->
+
 
 <!-- When compiling the stylesheets, don't forget to switch the link tags.
-
-<link rel="stylesheet" type="text/css" href="media/css/base.css" media="screen, projection" />
 -->
+<link rel="stylesheet" type="text/css" href="media/css/base.css" media="screen, projection" />
+
 <script type="text/javascript" src="media/js/jquery-1.7.1.min.js"></script>
 <script type="text/javascript" src="media/js/bootstrap-scrollspy.js"></script>
 

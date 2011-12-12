@@ -8,7 +8,7 @@
 
 
 body {
-    background: lighten(@pyYellow, 23%);
+    background: lighten(@pyYellow, 24%);
     padding-top: 40px; /* room for the topbar */
 
     .hero-unit {
@@ -21,10 +21,13 @@ body {
         }
         padding: 1em 60px;
     }
-    .container {
+
+    #content-main {
+        a:hover { background-color: @pyYellow; }
         p {
             line-height: 1.5em;
             margin-bottom: 1em;
+            color: lighten(@black, 20%);
         }
     }
 }

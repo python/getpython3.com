@@ -18,6 +18,8 @@
                     ${next.body()}
                 </div>
             </div>
+        </div>
+        <div class="row">
             ${self.footer()}
         </div>
     </div>
