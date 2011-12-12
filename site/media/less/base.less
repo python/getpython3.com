@@ -1,12 +1,38 @@
-/*
-    Import the main bootstrap framework, then add site-specific customizations.
-*/
+
+/* Some baseline colors to deviate from */
+@pyYellow: #fd5;
+@pyBlue: #3570a2;
+
+/* Import the main bootstrap framework, then add site-specific customizations. */
 @import "bootstrap.less";
 
+
 body {
-    background: rgb(252,252,252);
+    background: lighten(@pyYellow, 23%);
     padding-top: 40px; /* room for the topbar */
+
+    .hero-unit {
+        background-color: darken(@pyBlue, 20%);
+        color: @pyYellow;
+        .border-radius(0 0 6px 6px);
+        .box-shadow(2px 3px 5px rgba(0,0,0,.40));
+        h1 {
+            color: lighten(@pyBlue, 30%);
+        }
+        padding: 1em 60px;
+    }
+    .container {
+        p {
+            line-height: 1.5em;
+            margin-bottom: 1em;
+        }
+    }
 }
+
+
+li {
+    // somewhere in between gray and grayDark
+    color: lighten(@black, 35%); }
 
 div.header {
     height: 100%;
@@ -39,6 +65,7 @@ ul.no-margin {
 
 h2 {
     border-bottom: 1px solid gray !important;
+    margin-bottom: 0.6em;
 }
 
 h2 span {
