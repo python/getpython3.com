@@ -42,7 +42,7 @@ team there to help support you.</p>
             <div class="span6">
                 <h3>Posts &amp; links from the community:</h3>
                 <ul>
-                    <li><a href="http://lucumr.pocoo.org/2010/2/11/porting-to-python-3-a-guide/">Porting to Python 3 — A Guide</li>
+                    <li><a href="http://lucumr.pocoo.org/2010/2/11/porting-to-python-3-a-guide/">Porting to Python 3 &mdash; A Guide</li>
                     <li><a href="http://www.protocolostomy.com/2011/02/25/lessons-learned-porting-dateutil-to-python-3/">Lessons Learned Porting Dateutil to Python 3</a></li>
                     <li><a href="http://techspot.zzzeek.org/2011/01/24/zzzeek-s-guide-to-python-3-porting/">zzzeek's Guide to Python 3 Porting</a></li>
                     <li><a href="http://peadrop.com/blog/2009/04/05/porting-your-code-to-python-3/">Alexandre Vassalotti: Porting your code to Python 3</a></li>

@@ -1,0 +1,87 @@
+
+/* Some baseline colors to deviate from */
+@pyYellow: #fd5;
+@pyBlue: #3570a2;
+@bodyBG: lighten(@pyYellow, 26%);
+/* Import the main bootstrap framework, then add site-specific customizations. */
+@import "bootstrap.less";
+
+
+body {
+    background: @bodyBG url('/media/images/noise.png') repeat;
+    padding-top: 40px; /* room for the topbar */
+
+    .hero-unit {
+        color: @pyYellow;
+        .border-radius(0 0 6px 6px);
+        .box-shadow(2px 3px 5px rgba(0,0,0,.40));
+        h1 {
+            color: lighten(@pyBlue, 30%);
+        }
+        padding: 30px 60px 10px 60px;
+        margin-bottom: 20px;
+        blockquote {
+            margin-left: 4px;
+            border-color: @grayLight;
+        }
+        background: url('/media/images/py-tilt.png') no-repeat 98% center darken(@pyBlue, 20%);
+    }
+
+    #content-main {
+
+        a:not(.btn):hover { background-color: desaturate(@pyYellow, 15%); }
+        p {
+            line-height: 1.6em;
+            margin-bottom: 1em;
+            color: lighten(@black, 20%);
+        }
+        ul, ol {
+
+            @listBG: desaturate(darken(@bodyBG, 5%), 30%);
+            background: @listBG;
+            margin-left: 0;
+            padding: 10px 25px;
+            .border-radius;
+            border: 1px solid lighten(darken(@listBG, 40%), 30%);
+            li {
+                line-height: 1.4em;
+                // somewhere in between gray and grayDark
+                color: lighten(@black, 30%); }
+        }
+    }
+}
+
+#fork-me img {
+    position: absolute;
+    top: 40px; /* room for the topbar */
+    right: 0;
+    border: 0;
+    z-index: 1000;
+}
+
+ul.no-margin {
+    margin-bottom: 0 !important;
+}
+
+h2 {
+    border-bottom: 1px solid gray !important;
+    margin-bottom: 0.6em;
+}
+
+h2 span {
+    border-bottom: 4px solid #234764 !important;
+}
+
+.title {
+    color: #234764;
+}
+
+#footer {
+    text-align: center;
+    a#python-org {
+        height: 40px;
+        width: 100px;
+        height: 100%;
+    }
+    padding: 10px;
+}

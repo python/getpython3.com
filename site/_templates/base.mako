@@ -18,7 +18,11 @@
                     ${next.body()}
                 </div>
             </div>
+        </div>
+        <div class="row">
+            <div class="span12 offset1">
             ${self.footer()}
+            </div>
         </div>
     </div>
 </body>
