@@ -9,7 +9,7 @@ open _site/index.html
 Working with the styles:
 install lessc (on ubuntu: apt-get install npm, then npm install less)
 
-cd _site
+cd site
 ./build-styles.bash
 
 Alternatively, you can seek out your own less compiler. See the build-styles.bash script for which less file to compile to where.
