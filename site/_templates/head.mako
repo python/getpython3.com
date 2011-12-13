@@ -15,7 +15,7 @@
 <script type="text/javascript">
 
     (function($){
-        $('#topbar').scrollspy();
+        $('#topbar').scrollSpy();
     })(jQuery);
 
   var _gaq = _gaq || [];
