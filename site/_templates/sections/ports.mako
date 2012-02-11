@@ -13,6 +13,7 @@ major dependencies for other projects and tools:
     <li><a href="http://pypi.python.org/pypi/virtualenv">virtualenv</a></li>
     <li><a href="http://pypi.python.org/pypi/celery">celery</a></li>
     <li><a href="https://code.launchpad.net/~barry/python-dbus/py3k-works">python-dbus</a></li>
+    <li><a href="http://python-requests.org">requests</a></li>
 </ul>
 You can see a semi-complete list of <a
 href="http://pypi.python.org/pypi?:action=browse&c=533&show=all">all Python 3 supporing packages on PyPi
