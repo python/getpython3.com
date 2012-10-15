@@ -1,4 +1,4 @@
-<%inherit file="_templates/base.mako" />
+<%inherit file="_templates/site.mako" />
 
 <p class="alert-message block-message error">
     <b>Note</b>: We have mirrored Mark Pilgrim's excellent Dive into 
