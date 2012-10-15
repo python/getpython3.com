@@ -16,6 +16,6 @@ major dependencies for other projects and tools:
     <li><a href="http://python-requests.org">requests</a></li>
 </ul>
 You can see a semi-complete list of <a
-href="http://pypi.python.org/pypi?:action=browse&c=533&show=all">all Python 3 supporing packages on PyPi
+href="http://pypi.python.org/pypi?:action=browse&c=533&show=all">all Python 3 supporting packages on PyPi
 here</a>.
 </p>
