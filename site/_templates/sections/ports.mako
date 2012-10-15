@@ -1,5 +1,5 @@
 <h2 id="notable-ports" class="caps"><span>Notable Ports</span></h2>
-<p>The follow libraries/projects and frameworks are notable additions to the
+<p>The following libraries/projects and frameworks are notable additions to the
 Python 3 ecosystem. Some of these represent entire frameworks, while others are
 major dependencies for other projects and tools:
 <ul>
