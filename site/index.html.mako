@@ -1,4 +1,4 @@
-<%inherit file="_templates/base.mako" />
+<%inherit file="_templates/site.mako" />
 
 <p class="alert-message block-message error">
     <b>Note</b>: We have mirrored Mark Pilgrim's excellent Dive into 
@@ -38,13 +38,13 @@ ${self.whatispython()}
 
 ${self.download()}
 
-${self.ports()}
+${self.resources()}
 
-${self.support()}
+${self.ports()}
 
 ${self.findprojects()}
 
-${self.resources()}
+${self.support()}
 
 <p class="alert-message block-message info">Source code to this site available
 <a href="https://github.com/jnoller/getpython3.com" target="_blank"> on github.</a></p>
