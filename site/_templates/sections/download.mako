@@ -28,5 +28,5 @@ Builds are available for all major platforms, and OS X users can use <a
 href="http://mxcl.github.com/homebrew/">homebrew</a> via
 <b>"brew install python3"</b></p>
 
-<p><a class="btn primary" href="http://python.org/download/releases/3.2.2/">Go Here to
+<p><a class="btn primary" href="http://python.org/download/releases/3.3.0/">Go Here to
 Download &raquo;</a></p>
