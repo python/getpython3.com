@@ -1,6 +1,6 @@
 <h2 id="resources" class="caps"><span>Resources</span></h2>
-<p>There is a wealth of information out there on Porting to, and about
-Python 3. There is an entire mailing list (<a href="http://mail.python.org/mailman/listinfo/python-porting">python-porting</a>)
+<p>There is a wealth of information out there about Python 3 and porting to it.
+There is an entire mailing list (<a href="http://mail.python.org/mailman/listinfo/python-porting">python-porting</a>)
 dedicated to helping people port things to Python 3 - developers
 experienced in porting should join up, and there is already a good
 team there to help support you.</p>
@@ -20,8 +20,8 @@ team there to help support you.</p>
             <div class="span6">
                 <h3>Python 3 Overviews</h3>
                 <ul>
-                    <li><a href="http://docs.python.org/release/3.0.1/whatsnew/3.0.html">What's New in Python 3</a></li>
-                    <li><a href="http://www.linuxjournal.com/content/python-python-python-aka-python-3">Python Python Python (aka Python 3)</a></li>
+                    <li><a href="http://docs.python.org/release/3.0.1/whatsnew/3.0.html">What's New in Python 3.0</a></li>
+                    <li><a href="http://www.linuxjournal.com/content/python-python-python-aka-python-3">Linux Journal: Python Python Python (aka Python 3)</a></li>
                 </ul>
             </div>
         </div>

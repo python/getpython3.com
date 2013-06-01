@@ -1,7 +1,6 @@
 <h2 id="financial-support" class="caps"><span>Financial support</span></h2>
 
-<p>In short: <b>yes</b> - there's a bevy of information, videos and
-blog posts out there that can help you on your way. Python 3 is 
+<p>Python 3 is 
 the future of the Python language, and entities such as the Python
 Software Foundation strongly believe in supporting the porting effort.
 </p>
