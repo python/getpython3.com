@@ -25,7 +25,7 @@ document, as well as <a
 href="http://docs.python.org/3/whatsnew/">the earlier What's New articles</a>, and the <a
 href="http://hg.python.org/cpython/file/v${python_stable_exact}/Misc/NEWS">change log</a>.
 Builds are available for all major platforms, and OS X users can use <a
-href="http://mxcl.github.com/homebrew/">homebrew</a> via
+href="http://brew.sh/">homebrew</a> via
 <b>"brew install python3"</b></p>
 
 <p><a class="btn primary" href="http://python.org/download/releases/${python_stable_exact}/">Go Here to
