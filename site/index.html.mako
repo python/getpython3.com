@@ -1,7 +1,7 @@
 <%inherit file="_templates/site.mako" />
 
 <p class="alert-message block-message error">
-    <b>Note</b>: We have mirrored Mark Pilgrim's excellent Dive into 
+    <b>Note</b>: We have mirrored Mark Pilgrim's excellent Dive into
     Python 3 book here: <a href="http://getpython3.com/diveintopython3/">
     getpython3.com/diveintopython3/</a>.
     Git mirror here:
@@ -10,15 +10,6 @@
     <br/>
     Thank you, Mark.
 </p>
-<p class="alert-message block-message info">
-    <span class="label success">New!</span>
-    <a href="http://lucumr.pocoo.org/about/">Armin Ronacher</a> is <a
-    href="https://twitter.com/#!/mitsuhiko/status/145883846733344769">asking</a>
-     for feedback from the community on Werkzeug support for Python 3.<br/>
-    <a href="https://docs.google.com/spreadsheet/viewform?formkey=dHRIVjZESUlZZFY4X09VVlppaGl4S1E6MQ#gid=0">Click here to take his
-    survey &raquo;</a>
-</p>
-
 
     <!-- Place this tag where you want the +1 button to render -->
     <g:plusone annotation="inline"></g:plusone>
@@ -76,4 +67,3 @@ ${self.support()}
 <%def name="resources()">
   <%include file="sections/resources.mako" />
 </%def>
-
