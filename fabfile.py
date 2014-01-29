@@ -32,6 +32,12 @@ def push_site():
         local('rm build.tgz')
 
 @task
+def push_amk():
+    with lcd(LOCAL_BUILD_DIR):
+        local('rsync -av --delete . amkweb@wasp.dreamhost.com:~/py3.amk.ca/')
+
+
+@task
 def build_site():
     site_dir = 'site'
     with lcd(site_dir):
@@ -43,4 +49,3 @@ def deploy():
     build_site()
     push_site()
     nuke_cache()
-
