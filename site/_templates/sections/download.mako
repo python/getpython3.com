@@ -13,7 +13,7 @@ new things added:
     <li>PEP 405, Python Virtual Environments</li>
     <li>PEP 3118, new implementation of the memoryview type.</li>
     <li>PEP 3151, reworked hierarchy of OS and I/O exceptions</li>
-    <li>the <code>import</code> statement is now build atop the importlib module</li>
+    <li>the <code>import</code> statement is now built atop the importlib module</li>
     <li>for easier porting to Python 3, the <code>u''</code> syntax is now accepted again</li>
     <li>security fix: hash randomization is now enabled by default.</li>
 </ul>
