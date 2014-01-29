@@ -24,8 +24,6 @@ ${self.resources()}
 
 ${self.ports()}
 
-${self.findprojects()}
-
 ${self.support()}
 
 <p class="alert-message block-message info">Source code to this site available
@@ -53,10 +51,6 @@ ${self.support()}
 
 <%def name="support()">
 <%include file="sections/support.mako" />
-</%def>
-
-<%def name="findprojects()">
-  <%include file="sections/findprojects.mako" />
 </%def>
 
 <%def name="resources()">
