@@ -1,16 +1,5 @@
 <%inherit file="_templates/site.mako" />
 
-<p class="alert-message block-message error">
-    <b>Note</b>: We have mirrored Mark Pilgrim's excellent Dive into
-    Python 3 book here: <a href="http://getpython3.com/diveintopython3/">
-    getpython3.com/diveintopython3/</a>.
-    Git mirror here:
-    <a href="https://github.com/diveintomark/diveintopython3">
-    diveintopython3</a>
-    <br/>
-    Thank you, Mark.
-</p>
-
     <!-- Place this tag where you want the +1 button to render -->
     <g:plusone annotation="inline"></g:plusone>
 
@@ -28,6 +17,8 @@ ${self.introduction()}
 ${self.whatispython()}
 
 ${self.download()}
+
+${self.learn()}
 
 ${self.resources()}
 
@@ -50,6 +41,10 @@ ${self.support()}
 
 <%def name="download()">
   <%include file="sections/download.mako" />
+</%def>
+
+<%def name="learn()">
+  <%include file="sections/learn.mako" />
 </%def>
 
 <%def name="ports()">
