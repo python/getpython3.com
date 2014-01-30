@@ -43,7 +43,7 @@ all text strings being made Unicode by default.
   </li>
 </ul>
 
-<p>The <a href="http://docs.python.org/py3k/whatsnew/3.0.html"> What's
+<p>The <a href="http://docs.python.org/3/whatsnew/3.0.html"> What's
 New in Python 3.0</a> document provides a good overview of the major
 language changes between 2.7 and 3.x, and discusses likely sources of
 incompatibility with existing Python 2.x code.</p>
