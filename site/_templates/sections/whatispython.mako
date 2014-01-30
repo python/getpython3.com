@@ -2,47 +2,54 @@
 
 <h3>Short summary</h3>
 
-<p>Although most Python code is currently written for Python 
+<p>Although most Python code is currently written for Python
 2.x, Python 3.x is the present and future of the language.</p>
 
-<p>Python 2.7.3 was released in April 2012. 
+<p>Python 2.7.6 was released in November 2013.
 The 2.x branch will have no further major releases,
-though this end-of-life release will have an extended period of bug
+though the 2.7 end-of-life release will have an extended period of bug
 and security fixes.
 
-<p>Python 3.x continues to be actively developed and has already seen stable
-releases.  The most recent is Python 3.3, released in September
-2012. This means that all recent standard library improvements, for
-example, are only available in Python 3.x.</p>
+<p>Python 3.x continues to be actively developed.  The most recent
+release is Python ${python_stable_major}, released in November 2013.</p>
+
 
 <h3>Detailed discussion</h3>
 
-<p>Guido van Rossum (the original creator of the Python language), 
-in conjunction with other python-core developers decided to use Python 3.x to
-clean up Python 2.x.  Python 2.x releases were careful to preserve backwards 
-compatibility with older versions, but Python 3.x was freed of this requirement.
-The most drastic improvement is better Unicode support (with 
-all text strings being Unicode by default) as well as saner 
-bytes/unicode separation.</p>
+<p>Guido van Rossum (the original creator of the Python language), together
+with other python-core developers, decided to use Python
+3.x to clean up the Python language.  Python 2.x releases were always careful
+to preserve backwards compatibility with older versions, but Python
+3.0 was a clean-up that didn't have to carry old features.
+</p>
 
-<p>Several other aspects of the core language (such as <code>print</code>
-and <code>exec</code> being statements, integers using floor division) were 
-adjusted to be easier for newcomers to learn and to be more consistent 
-with the rest of the language, and old cruft has been removed (for 
-example, all classes are now new-style, <code>range()</code> returns a memory 
-efficient iterable and not a list as in 2.x).</p>
+<p>The major differences are:
 
-<p>The <a href="http://docs.python.org/py3k/whatsnew/3.0.html">
-What's New in Python 3.0</a> document provides a good overview of the 
-major language changes and likely sources of incompatibility with 
-existing Python 2.x code.</p>
+<ul>
+  <li> <b>Better Unicode support</b><br />
+   Unicode is now woven into the language, with
+all text strings being made Unicode by default.
+  <li> <b>Easier for newcomers</b><br />
+   Dividing integers always returns an accurate result.
+   Integers can handle any size, no longer limited to the machine's word size.
+   Comparison operators are simpler, and comparing different types
+   is now an error.
+   Catching exceptions in the <code>except:</code> statement is clearer.
+  <li> <b>Removed old features and complications</b><br />
+    All classes are now new-style.  <code>range()</code> and various
+    dictionary methods return a memory-efficient iterable and not a
+    list.  List comprehensions no longer leak the value for their looping
+    variable.
+  </li>
+</ul>
 
-<p>The <a href="http://docs.python.org/dev/whatsnew/3.1.html">What's
-New in Python 3.1</a>, 
+<p>The <a href="http://docs.python.org/3/whatsnew/3.0.html"> What's
+New in Python 3.0</a> document provides a good overview of the major
+language changes between 2.7 and 3.x, and discusses likely sources of
+incompatibility with existing Python 2.x code.</p>
+
+<p>Later versions of Python 3.x added more features, discussed in a series of
+  "What's New" documents for <a href="http://docs.python.org/dev/whatsnew/3.1.html">Python 3.1</a>,
 <a href="http://docs.python.org/dev/whatsnew/3.2.html">Python 3.2</a>,
-and <a href="http://docs.python.org/dev/whatsnew/3.3.html">Python 3.3</a> 
-documents describes the new features added to each Python 3 release.</p>
-
-<p>Cribbed from <a href="http://wiki.python.org/moin/Python2orPython3"
-target="_blank">Python2orPython3</a> on the Python wiki.</p>
-
+and <a href="http://docs.python.org/dev/whatsnew/3.3.html">Python 3.3</a>.
+</p>

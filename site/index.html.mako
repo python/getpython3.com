@@ -1,25 +1,5 @@
 <%inherit file="_templates/site.mako" />
 
-<p class="alert-message block-message error">
-    <b>Note</b>: We have mirrored Mark Pilgrim's excellent Dive into 
-    Python 3 book here: <a href="http://getpython3.com/diveintopython3/">
-    getpython3.com/diveintopython3/</a>.
-    Git mirror here:
-    <a href="https://github.com/diveintomark/diveintopython3">
-    diveintopython3</a>
-    <br/>
-    Thank you, Mark.
-</p>
-<p class="alert-message block-message info">
-    <span class="label success">New!</span>
-    <a href="http://lucumr.pocoo.org/about/">Armin Ronacher</a> is <a
-    href="https://twitter.com/#!/mitsuhiko/status/145883846733344769">asking</a>
-     for feedback from the community on Werkzeug support for Python 3.<br/>
-    <a href="https://docs.google.com/spreadsheet/viewform?formkey=dHRIVjZESUlZZFY4X09VVlppaGl4S1E6MQ#gid=0">Click here to take his
-    survey &raquo;</a>
-</p>
-
-
     <!-- Place this tag where you want the +1 button to render -->
     <g:plusone annotation="inline"></g:plusone>
 
@@ -38,11 +18,11 @@ ${self.whatispython()}
 
 ${self.download()}
 
+${self.learn()}
+
 ${self.resources()}
 
 ${self.ports()}
-
-${self.findprojects()}
 
 ${self.support()}
 
@@ -61,6 +41,10 @@ ${self.support()}
   <%include file="sections/download.mako" />
 </%def>
 
+<%def name="learn()">
+  <%include file="sections/learn.mako" />
+</%def>
+
 <%def name="ports()">
   <%include file="sections/ports.mako" />
 </%def>
@@ -69,11 +53,6 @@ ${self.support()}
 <%include file="sections/support.mako" />
 </%def>
 
-<%def name="findprojects()">
-  <%include file="sections/findprojects.mako" />
-</%def>
-
 <%def name="resources()">
   <%include file="sections/resources.mako" />
 </%def>
-
