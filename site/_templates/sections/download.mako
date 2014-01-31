@@ -3,19 +3,32 @@
 new things added:
 
 <ul>
-    <li><code>yield from</code> expression for delegating to a generator (PEP 380)
-    <li>new library modules for LZMA compression, mock objects for unit tests,
-        and  representing IP addresses
-    <li>the decimal type has been re-implemented in C, making it much faster
-    <li>PEP 393, Flexible String Representation, which reduces memory usage
-        and removes the distinction between narrow and wide builds of Python.
-    <li>PEP 397, a Windows&reg; launcher for *.py files.
-    <li>PEP 405, Python Virtual Environments</li>
-    <li>PEP 3118, new implementation of the memoryview type.</li>
-    <li>PEP 3151, reworked hierarchy of OS and I/O exceptions</li>
-    <li>the <code>import</code> statement is now built atop the importlib module</li>
-    <li>for easier porting to Python 3, the <code>u''</code> syntax is now accepted again</li>
-    <li>security fix: hash randomization is now enabled by default.</li>
+    <li> PEP 453: Python 3.4 now includes the <code>pip</code> installer tool.
+    <li> a new <code>-I</code> switch runs in isolated mode, no longer
+       importing modules from either the user's site-packages
+       directory or the script's directory for imports.
+    <li> PEP 446: open files are no longer inherited by child processes
+       by default.
+    <li> new library modules: <code>enum</code> for enumeration types (PEP 435);
+       <code>pathlib</code>, an OO representation of filesystem paths (PEP 428);
+       <code>statistics</code>, a basic library for calculating mean,
+       variance, and other statistical properties (PEP 450);
+       a new <code>tracemalloc</code> module for debugging Python's use
+       of memory (PEP 454);
+       a provisional <code>asyncio</code> package for asynchronous I/O and
+       the related <code>selectors</code> module for I/O multiplexing (PEP 3156).
+    <li> the <code>ssl</code> module now supports TLS versions 1.1 and 1.2.
+    <li> PEP 436: a domain-specific language called Argument Clinic is used to
+        generate argument-parsing code and signatures for built-in functions.
+    <li> PEP 442: safe object finalization lets objects with <code>__del__</code>
+         methods be properly finalized even when they're part of a reference cycle.
+    <li> PEP 443: the <code>singledispatch()</code> decorator adds
+         single-dispatch generic functions to the
+         <code>functools</code> module.
+    <li> PEP 456: Python's internal hash function was changed to a more
+        secure algorithm, SipHash.
+    <li>PEP 3154: a new pickling protocol (version 4) supports 64-bit object
+        sizes, grouping the stream into frames for I/O efficiency,
 </ul>
 </p>
 
