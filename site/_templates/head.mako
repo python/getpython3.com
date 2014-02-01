@@ -6,6 +6,7 @@
 -->
 
 <!-- Once the stylesheets are compiled, use the resulting css file instead! -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="media/css/base.css" media="screen, projection" />
 
 <script type="text/javascript" src="media/js/jquery-1.7.1.min.js"></script>
