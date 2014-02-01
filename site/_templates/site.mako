@@ -9,18 +9,18 @@
 <body>
 
     ${self.topbar()}
+    ${self.header()}
 
     <div class="container">
-        ${self.header()}
         <div class="row">
-            <div class="span12 offset1">
+            <div class="span12">
                 <div id="content-main" class="content-main">
                     ${next.body()}
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="span12 offset1">
+            <div class="span12">
             ${self.footer()}
             </div>
         </div>

@@ -12,19 +12,61 @@ body {
     padding-top: 40px; /* room for the topbar */
 
     .hero-unit {
+        .container {
+            position: relative;
+            top: 0;
+            left: 0;
+        }
         color: @pyYellow;
-        .border-radius(0 0 6px 6px);
-        .box-shadow(2px 3px 5px rgba(0,0,0,.40));
+        .border-radius(0);
         h1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-family: 'Open Sans';
+            font-size: 34px;
             color: lighten(@pyBlue, 30%);
+            text-align:  center;
+            line-height: 30px;
+            width: 205px;
+            height: 65px;
+            span {
+                font-style: italic;
+                font-weight: 400;
+            }
+            .tagline {
+                font-size: 18px;
+                font-style: italic;
+                font-weight: 100;
+                color: #fff;
+            }
         }
         padding: 30px 60px 10px 60px;
         margin-bottom: 20px;
-        blockquote {
-            margin-left: 4px;
-            border-color: @grayLight;
+        .titlehead {
+            border: none;
+            color: #fff;
+            float: right;
+            font-family: 'Open Sans';
+            font-size: 34px;
+            font-weight: 800;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 0;
+            width: 355px;
+            .tagline {
+                margin-top: 10px;
+                font-size: 18px;
+                font-weight: 100;
+                :before {
+                    content: ''
+                }
+            }
         }
-        background: url('/media/images/py-tilt.png') no-repeat 98% center darken(@pyBlue, 20%);
+        background: url('/media/images/broken_noise.png') repeat;
+        height: 100px;
     }
 
     #content-main {
