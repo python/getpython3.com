@@ -11,7 +11,7 @@ though the 2.7 end-of-life release will have an extended period of bug
 and security fixes.
 
 <p>Python 3.x continues to be actively developed.  The most recent
-release is Python ${python_stable_major}, released in November 2013.</p>
+release is Python ${python_stable_major}, released in March 2014.</p>
 
 
 <h3>Detailed discussion</h3>
@@ -49,7 +49,9 @@ language changes between 2.7 and 3.x, and discusses likely sources of
 incompatibility with existing Python 2.x code.</p>
 
 <p>Later versions of Python 3.x added more features, discussed in a series of
-  "What's New" documents for <a href="http://docs.python.org/dev/whatsnew/3.1.html">Python 3.1</a>,
+  "What's New" documents for
+<a href="http://docs.python.org/dev/whatsnew/3.1.html">Python 3.1</a>,
 <a href="http://docs.python.org/dev/whatsnew/3.2.html">Python 3.2</a>,
-and <a href="http://docs.python.org/dev/whatsnew/3.3.html">Python 3.3</a>.
+<a href="http://docs.python.org/dev/whatsnew/3.3.html">Python 3.3</a>, and
+<a href="http://docs.python.org/dev/whatsnew/3.4.html">Python 3.4</a>.
 </p>
