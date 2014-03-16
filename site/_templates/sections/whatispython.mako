@@ -17,10 +17,10 @@ release is Python ${python_stable_major}, released in March 2014.</p>
 <h3>Detailed discussion</h3>
 
 <p>Guido van Rossum (the original creator of the Python language), together
-with other python-core developers, decided to use Python
-3.x to clean up the Python language.  Python 2.x releases were always careful
-to preserve backwards compatibility with older versions, but Python
-3.0 was a clean-up that didn't have to carry old features.
+with other python-core developers, decided to use Python 3.x to clean up the
+Python language.  Python 2.x releases were always careful to preserve
+backwards compatibility with older versions, but Python 3.0 was a clean-up
+that didn't have to carry old features.
 </p>
 
 <p>The major differences are:
