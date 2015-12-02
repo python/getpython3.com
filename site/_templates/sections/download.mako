@@ -3,19 +3,19 @@
 new things added:
 
 <ul>
-    <li><code>yield from</code> expression for delegating to a generator (PEP 380)
-    <li>new library modules for LZMA compression, mock objects for unit tests,
-        and  representing IP addresses
-    <li>the decimal type has been re-implemented in C, making it much faster
-    <li>PEP 393, Flexible String Representation, which reduces memory usage
-        and removes the distinction between narrow and wide builds of Python.
-    <li>PEP 397, a Windows&reg; launcher for *.py files.
-    <li>PEP 405, Python Virtual Environments</li>
-    <li>PEP 3118, new implementation of the memoryview type.</li>
-    <li>PEP 3151, reworked hierarchy of OS and I/O exceptions</li>
-    <li>the <code>import</code> statement is now built atop the importlib module</li>
-    <li>for easier porting to Python 3, the <code>u''</code> syntax is now accepted again</li>
-    <li>security fix: hash randomization is now enabled by default.</li>
+    <li>PEP 441, improved Python zip application support
+    <li>PEP 448, additional unpacking generalizations
+    <li>PEP 461, "%-formatting" for bytes and bytearray objects
+    <li>PEP 465, a new operator <code>@</code> for matrix multiplication
+    <li>PEP 471, <code>os.scandir()</code>, a fast new directory traversal function
+    <li>PEP 475, adding support for automatic retries of interrupted system calls
+    <li>PEP 479, change StopIteration handling inside generators
+    <li>PEP 484, the typing module, a new standard for type annotations
+    <li>PEP 485, <code>math.isclose()</code>, a function for testing approximate equality
+    <li>PEP 486, making the Windows Python launcher aware of virtual environments
+    <li>PEP 488, eliminating .pyo files
+    <li>PEP 489, a new and improved mechanism for loading extension modules
+    <li>PEP 492, coroutines with <code>async</code> and <code>await</code> syntax
 </ul>
 </p>
 
