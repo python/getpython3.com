@@ -25,10 +25,19 @@ site.file_ignore_patterns = [
 site.template_vars = {
     # The full version number of the latest stable version, e.g. 3.4.0
     # or 3.5.2.
-    'python_stable_exact': '3.4.0',
+    'python_stable_exact': '3.5.1',
 
     # Version number of latest stable version, leaving off the minor number
     # e.g. 3.4 or 3.5.
-    'python_stable_major': '3.4',
+    'python_stable_major': '3.5',
+
+    # Month, year of 3.5 release
+    'python_stable_date': 'December 2015',
+
+    # The full version number of latest 2.7 release
+    'python27_exact': '2.7.11',
+
+    # Month, year of most recent 2.7 release
+    'python27_date': 'December 2015',
 
 }

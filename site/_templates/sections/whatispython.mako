@@ -5,13 +5,13 @@
 <p>Although most Python code is currently written for Python
 2.x, Python 3.x is the present and future of the language.</p>
 
-<p>Python 2.7.6 was released in November 2013.
+<p>Python ${python27_exact} was released in ${python27_date}.
 The 2.x branch will have no further major releases,
 though the 2.7 end-of-life release will have an extended period of bug
 and security fixes.
 
 <p>Python 3.x continues to be actively developed.  The most recent
-release is Python ${python_stable_major}, released in March 2014.</p>
+release is Python ${python_stable_exact}, released in ${python_stable_date}.</p>
 
 
 <h3>Detailed discussion</h3>
