@@ -49,9 +49,10 @@ language changes between 2.7 and 3.x, and discusses likely sources of
 incompatibility with existing Python 2.x code.</p>
 
 <p>Later versions of Python 3.x added more features, discussed in a series of
-  "What's New" documents for 
+  "What's New" documents for
 <a href="http://docs.python.org/dev/whatsnew/3.1.html">Python 3.1</a>,
 <a href="http://docs.python.org/dev/whatsnew/3.2.html">Python 3.2</a>,
-<a href="http://docs.python.org/dev/whatsnew/3.3.html">Python 3.3</a>, and
-<a href="http://docs.python.org/dev/whatsnew/3.4.html">Python 3.4</a>.
+<a href="http://docs.python.org/dev/whatsnew/3.3.html">Python 3.3</a>,
+<a href="http://docs.python.org/dev/whatsnew/3.4.html">Python 3.4</a>, and
+<a href="http://docs.python.org/dev/whatsnew/3.5.html">Python 3.5</a>.
 </p>
