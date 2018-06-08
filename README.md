@@ -1,0 +1,27 @@
+# getpython3.com
+
+## How to build
+
+```
+mkvirtualenv getpython3
+pip install blogofile
+cd site
+blogofile build
+open _site/index.html
+```
+
+If you install fabric, you can run:
+
+    fab build_site
+
+Working with the styles:
+install lessc (on ubuntu: `apt-get install npm`, then `npm install less`)
+
+```
+cd site
+./build-styles.bash
+```
+
+Alternatively, you can seek out your own less compiler. See the [build-styles.bash](./site/build-styles.bash) script for which less file to compile to where.
+
+During development, it may be easier to use less.js which will compile the less styles into css per-page-view. To do this, see the comments in [head.mako](./site/_templates/head.mako) (basically uncomment 2 lines, and comment another -- don't forget to switch back before deploying to prod).
